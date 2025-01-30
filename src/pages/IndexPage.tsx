@@ -14,7 +14,7 @@ export async function loader() {
   }
 }
 
-export async function action({ request,params }:ActionFunctionArgs) {
+export async function action({ request}:ActionFunctionArgs) {
 
   const form = await request.formData();
   const json = Object.fromEntries(form.entries());

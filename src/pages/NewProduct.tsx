@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, Form, ActionFunctionArgs, useActionData, redirect } from "react-router";
 import Error from "../components/Error";
 import { addProduct } from "../services/ProductService";
